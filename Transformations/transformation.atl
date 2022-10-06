@@ -1,0 +1,5 @@
+-- @path MM1=/sose_progetto/ModelloFrom/process_1.bpmn
+
+module transformation;
+create OUT : MM2 from IN : MM1;
+
