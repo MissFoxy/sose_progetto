@@ -7,5 +7,9 @@
 		- immagini vari e tesi di altri studenti
 
 - Models: folder che contiene i modelli
+	- Link utili BPMN:
+		- Modelli e programmi per BPMN https://www.conceptdraw.com/solution-park/business-process-diagram
+		- Spiegazione BPMN teorica https://blog.goodelearning.com/subject-areas/bpmn/message-events-vs-message-tasks/
+		- Altro modello da utilizzare come test se serve: https://www.visual-paradigm.com/servlet/editor-content/tutorials/how-to-create-bpmn-diagram/sites/7/2019/02/bpmn-diagram-example.png
 
 - Transformations: contiene il file per la transformazione, in un altra folder per tenere le cose in ordine
