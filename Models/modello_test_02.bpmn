@@ -13,7 +13,7 @@
   </bpmn2:message>
   <bpmn2:collaboration id="Collaboration_1" name="Default Collaboration">
     <bpmn2:participant id="Participant_1" name="Professore" processRef="Process_1"/>
-    <bpmn2:participant id="Participant_2" name="Studenti" processRef="Process_2"/>
+    <bpmn2:participant id="Participant_2" name="Studente" processRef="Process_2"/>
     <bpmn2:participant id="Participant_3" name="Default Pool" processRef="Process_3">
       <bpmn2:extensionElements>
         <ext:style/>
@@ -115,7 +115,7 @@
       <bpmndi:BPMNShape id="BPMNShape_2" bpmnElement="Participant_2" isHorizontal="true">
         <dc:Bounds height="221.0" width="1401.0" x="150.0" y="400.0"/>
         <bpmndi:BPMNLabel id="BPMNLabel_2" labelStyle="BPMNLabelStyle_1">
-          <dc:Bounds height="45.0" width="15.0" x="156.0" y="488.0"/>
+          <dc:Bounds height="49.0" width="15.0" x="156.0" y="486.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_IntermediateCatchEvent_1" bpmnElement="IntermediateCatchEvent_1">
