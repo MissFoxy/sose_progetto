@@ -1,34 +1,12 @@
 -- @path BPMN=file:/C:/Users/scrib/eclipse-workspace/sose_progetto/Metamodels/metamodel_BPMN.ecore
 -- @path SoaML=file:/C:/Users/scrib/eclipse-workspace/sose_progetto/Metamodels/metamodel_SoaML.ecore
 
-module transformation;
+module trans02;
 create OUT : SoaML from IN : BPMN;
-
 
 rule Pool2Participant {
 	from
 		s: Pool!Object
 	to
 		t: Participant!Object
-}
-
-rule MessageFlow2ServiceContract {
-	from
-		s: MessageFlow!Connections
-	to
-		t: ServiceContract!Object
-}
-
-rule Start2ServicePort {
-	from
-		s: Start!Event
-	to
-		t: ServicePort!Activity
-}
-
-rule Task2RequestPort {
-	from
-		s: Task!Activity
-	to
-		t: RequestPort!Activity
 }

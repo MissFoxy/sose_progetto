@@ -1,0 +1,19 @@
+pool -> participant
+lane -> participant
+
+activity -> con solo msg in uscita è request port
+activity -> con solo msg in entrata service port
+message flow -> service contract + roles
+
+root -> collaborazione
+
+## --------- ##
+
+pool -> participant
+message flow -> service contract
+
+task -> action
+
+activity -> con solo msg in uscita è request port
+activity -> con solo msg in entrata service port
+
