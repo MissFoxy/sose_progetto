@@ -23,14 +23,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="AND" eSuperTypes="#//GateWay"/>
   <eClassifiers xsi:type="ecore:EClass" name="XOR" eSuperTypes="#//GateWay"/>
   <eClassifiers xsi:type="ecore:EClass" name="OR" eSuperTypes="#//GateWay"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//Object">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Type" eType="#//EventType"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EEnum" name="EventType" instanceClassName="">
-    <eLiterals name="Start"/>
-    <eLiterals name="Intermediate" value="1"/>
-    <eLiterals name="End" value="2"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//Object"/>
   <eClassifiers xsi:type="ecore:EClass" name="CallActivity" eSuperTypes="#//Activity"/>
   <eClassifiers xsi:type="ecore:EClass" name="Transaction" eSuperTypes="#//Activity"/>
   <eClassifiers xsi:type="ecore:EClass" name="Artifacts" eSuperTypes="#//Object">
@@ -51,4 +44,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="artifacts" eType="#//Artifacts"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Event_based" eSuperTypes="#//GateWay"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Start" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="End" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Intermediate" eSuperTypes="#//Event"/>
 </ecore:EPackage>

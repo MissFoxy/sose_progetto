@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- origin at X=0.0 Y=0.0 -->
-<bpmn2:definitions xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ext="http://org.eclipse.bpmn2/ext" id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.5.4.RC1-v20220528-0836-B1" targetNamespace="http://org.eclipse.bpmn2/default/collaboration">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ext="http://org.eclipse.bpmn2/ext" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="Definitions_1" exporter="org.eclipse.bpmn2.modeler.core" exporterVersion="1.5.4.RC1-v20220528-0836-B1" targetNamespace="http://org.eclipse.bpmn2/default/collaboration">
   <bpmn2:message id="Message_4" name="Soluzione">
     <bpmn2:extensionElements>
       <ext:style ext:labelPosition="Right of Figure"/>
@@ -193,9 +193,9 @@
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_Task_12" bpmnElement="Task_11" isExpanded="true">
-        <dc:Bounds height="50.0" width="110.0" x="563.0" y="524.0"/>
+        <dc:Bounds height="50.0" width="110.0" x="563.0" y="540.0"/>
         <bpmndi:BPMNLabel id="BPMNLabel_18" labelStyle="BPMNLabelStyle_1">
-          <dc:Bounds height="45.0" width="107.0" x="564.0" y="526.0"/>
+          <dc:Bounds height="45.0" width="107.0" x="564.0" y="542.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="BPMNEdge_MessageFlow_3" bpmnElement="MessageFlow_3" sourceElement="BPMNShape_EndEvent_2" targetElement="BPMNShape_IntermediateCatchEvent_1">
@@ -229,8 +229,8 @@
         <bpmndi:BPMNLabel id="BPMNLabel_21"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_19" bpmnElement="SequenceFlow_19" sourceElement="BPMNShape_Task_12" targetElement="BPMNShape_ExclusiveGateway_2">
-        <di:waypoint xsi:type="dc:Point" x="673.0" y="549.0"/>
-        <di:waypoint xsi:type="dc:Point" x="725.0" y="549.0"/>
+        <di:waypoint xsi:type="dc:Point" x="673.0" y="565.0"/>
+        <di:waypoint xsi:type="dc:Point" x="725.0" y="565.0"/>
         <di:waypoint xsi:type="dc:Point" x="725.0" y="534.0"/>
         <bpmndi:BPMNLabel id="BPMNLabel_22"/>
       </bpmndi:BPMNEdge>
@@ -242,8 +242,8 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_21" bpmnElement="SequenceFlow_21" sourceElement="BPMNShape_ExclusiveGateway_1" targetElement="BPMNShape_Task_12">
         <di:waypoint xsi:type="dc:Point" x="492.0" y="533.0"/>
-        <di:waypoint xsi:type="dc:Point" x="492.0" y="549.0"/>
-        <di:waypoint xsi:type="dc:Point" x="563.0" y="549.0"/>
+        <di:waypoint xsi:type="dc:Point" x="492.0" y="565.0"/>
+        <di:waypoint xsi:type="dc:Point" x="563.0" y="565.0"/>
         <bpmndi:BPMNLabel id="BPMNLabel_24"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_22" bpmnElement="SequenceFlow_22" sourceElement="BPMNShape_ExclusiveGateway_2" targetElement="BPMNShape_Task_7">
