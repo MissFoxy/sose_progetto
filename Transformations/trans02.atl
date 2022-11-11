@@ -6,7 +6,7 @@ create OUT : SoaML from IN : BPMN;
 
 rule Pool2Participant {
 	from
-		s: Pool!Pool
+		s: BPMN!Pool
 	to
-		t: Participant!Participant
+		t: SoaML!Participant
 }

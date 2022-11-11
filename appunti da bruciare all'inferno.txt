@@ -10,7 +10,8 @@ root -> collaborazione
 ## --------- ##
 
 pool -> participant
-message flow -> service contract
+Service TASK -> service contract 
+(guarda gli esempi, il service task è il task che riceve il messaggio in entrata dal message flow)
 
 task -> action
 

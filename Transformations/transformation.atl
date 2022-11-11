@@ -6,29 +6,25 @@ create OUT : SoaML from IN : BPMN;
 
 
 rule Pool2Participant {
-	from
-		s: Pool!Object
+	from 
+		s0 : BPMN!Pool
 	to
-		t: Participant!Object
+		t0 : SoaML!Participant
 }
 
 rule MessageFlow2ServiceContract {
 	from
-		s: MessageFlow!Connections
+		s1 : BPMN!MessageFlow
 	to
-		t: ServiceContract!Object
+		t1 : SoaML!ServiceContract
 }
 
-rule Start2ServicePort {
-	from
-		s: Start!Event
-	to
-		t: ServicePort!Activity
-}
 
-rule Task2RequestPort {
-	from
-		s: Task!Activity
-	to
-		t: RequestPort!Activity
-}
+
+-- la prossima regola è sbagliata e non fa eseguire il codice
+--	rule ServiceTask2ServiceContract {
+--		from 
+--			s1 : BPMN!ServiceTask
+--		to
+--			t1 : SOAML!ServiceContract
+--	}

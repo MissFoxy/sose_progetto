@@ -47,4 +47,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="Start" eSuperTypes="#//Event"/>
   <eClassifiers xsi:type="ecore:EClass" name="End" eSuperTypes="#//Event"/>
   <eClassifiers xsi:type="ecore:EClass" name="Intermediate" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceTask" eSuperTypes="#//Task"/>
 </ecore:EPackage>
